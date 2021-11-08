@@ -1,0 +1,25 @@
+{
+  "name": "hack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-dev ./src/index.ts",
+    "build": "tsc --build ./tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "big-integer": "^1.6.50",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "sanitize-filename": "^1.6.3",
+    "urql": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.2"
+  }
+}
